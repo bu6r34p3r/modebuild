@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About - Mode:Build",
-  description: "M&A advisor turned AI builder. The story behind Mode:Build.",
+  title: "About",
+  description:
+    "M&A advisor turned AI builder. Over a decade helping business owners sell their companies, now building AI products and helping businesses implement AI.",
+  openGraph: {
+    title: "About Phillip Elliott | Mode:Build",
+    description:
+      "M&A advisor turned AI builder. The story behind Mode:Build.",
+  },
 };
 
 const stats = [

@@ -4,8 +4,14 @@ import { products } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Products - Mode:Build",
-  description: "AI-powered products designed, built, and shipped from scratch.",
+  title: "Products",
+  description:
+    "AI-powered products designed, built, and shipped from scratch. Brokerlytics, DemandDrop, NameDropped, Reddit Miner, PetDose, and enterprise AI chatbots.",
+  openGraph: {
+    title: "Products | Mode:Build",
+    description:
+      "AI-powered products designed, built, and shipped from scratch. No dev team. No VC. Just me and AI.",
+  },
 };
 
 export default function ProductsPage() {

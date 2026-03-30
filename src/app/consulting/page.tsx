@@ -5,8 +5,14 @@ import ServiceCard from "@/components/ServiceCard";
 import StepCard from "@/components/StepCard";
 
 export const metadata: Metadata = {
-  title: "AI Consulting - Mode:Build",
-  description: "AI consulting for business owners. Strategy, automation, chatbots, training, and systems that increase your business value.",
+  title: "AI Consulting",
+  description:
+    "AI consulting for business owners. Strategy, automations, chatbots, dashboards, team training, and systems that make your business worth more.",
+  openGraph: {
+    title: "AI Consulting | Mode:Build",
+    description:
+      "AI consulting for business owners. I help you implement AI to cut costs, automate the busy work, and increase your business value.",
+  },
 };
 
 const steps = [

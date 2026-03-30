@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import StepCard from "@/components/StepCard";
 
 export const metadata: Metadata = {
-  title: "Book a Call - Mode:Build",
-  description: "Book a free 30-minute call. No pitch deck, no fluff. Just a conversation about where AI can help your business.",
+  title: "Book a Call",
+  description:
+    "Book a free 30-minute call. No pitch deck, no fluff. Just a conversation about where AI can save your business money and make it worth more.",
+  openGraph: {
+    title: "Book a Call | Mode:Build",
+    description:
+      "Book a free 30-minute call about AI consulting for your business.",
+  },
 };
 
 const steps = [
